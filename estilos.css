@@ -1,0 +1,86 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: -0.5em 0 -0.5em 0;
+    letter-spacing: 1.5px;
+    color: #ffcc01;
+    text-shadow: 4px 6px #0000ff33;
+    -webkit-text-stroke: 2px #2873b9;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+#form {
+    width: 200px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'VT323', monospace;
+    
+}
+#form input {
+    outline: none;
+    font-size: 25px;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 3px #000;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'VT323', monospace;
+    transition: all 500ms;
+}
+#form input::placeholder { color: #989a9c; }
+#form input:hover { background-color: #faf9f9; }
+.pokeCarta {
+    position: relative;
+    max-width: 300px;
+    height: fit-content;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 3px #000;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, .1);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'VT323', monospace;
+    transition: height 1s;
+}
+.pokeImg {
+    width: 180px;
+    border-radius: 10%;
+}
+.imgCont {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+.pokeTipos div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed #000;
+}
+.pokeStats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+}
