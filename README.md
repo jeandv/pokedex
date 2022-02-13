@@ -1,5 +1,4 @@
 # pokedex
-Pokedex (Buscador de pokemons 1ra Generación) JavaScript, API, fetch, async.
 
 - Resultado: https://jeandv.github.io/pokedex/
 
