@@ -1,6 +1,6 @@
 ## Descripción 💬
 
-✔ He hecho una pokedex (Buscador de pokémons) con Javascript usando la api de https://pokeapi.co/ en esta hago uso de 
+✔ He hecho una pokedex (Buscador de pokémons) con Javascript usando la api de https://pokeapi.co/ en esta hago uso de fetch, async y mas...
   
 ## Autor 🤠
 
